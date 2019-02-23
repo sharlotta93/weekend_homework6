@@ -34,12 +34,38 @@
           </select>
         </div>
       </div>
-      <input type="submit" value="save"/>
-    </form>
+      <input type="submit" value="Save"/>
 
-    <button id="delete-all">Delete All</button>
+      <button id="delete-all">Delete All</button>
+    </form>
 
     <h1>Training List</h1>
     <div id="training-list"></div>
   </body>
+  <footer>
+    <p>Select your favourite Workout:</p>
+
+    <div>
+      <input type="radio" id="bjj" name="drone" value="bjj" checked>
+         <label for="bjj">BJJ</label>
+    </div>
+
+    <div>
+      <input type="radio" id="wrestling" name="drone" value="wresling">
+      <label for="wrestling">Wrestling</label>
+    </div>
+
+    <div>
+      <input type="radio" id="boxing" name="drone" value="boxing">
+      <label for="boxing">Boxing</label>
+    </div>
+
+    <div>
+      <input type="radio" id="weights" name="drone" value="weights">
+      <label for="weights">Weights</label>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </footer>
 </html>

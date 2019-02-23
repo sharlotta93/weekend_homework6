@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+
+#form-wrapper {
+  width: 100%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+#new-item-form {
+  background-color: rgb(41, 222, 157);
+  width: 30vw;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 35vw;
+}
+
+.form-item {
+  margin: 1rem;
+}
+
+label.primary {
+  font-size: 1.5rem;
+}
+
+button, input[type="submit"] {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 3px;
+}
+
+#training-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.training-list-item {
+  background-color: #91f1a0;
+  border-radius: 25px;
+  height: 25vh;
+  min-width: 20vw;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}

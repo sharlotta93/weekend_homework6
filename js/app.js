@@ -13,7 +13,7 @@ const createdNewForm = function (event) {
   const trainingList = document.querySelector('#training-list');
   trainingList.appendChild(trainingListItem);
 
-  //event.target.reset();
+  event.target.reset();
 }
 
 const createTrainingListItem = function (form) {
