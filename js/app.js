@@ -8,7 +8,16 @@ const onStartForm = () => {
   const radioForm= document.querySelector('#initial-form');
   radioForm.classList.add('hidden');
   event.preventDefault();
+  newBackground();
   formItem();
+}
+
+function newBackground() {
+    if (document.getElementById("boxing").checked) {
+    document.getElementById("picture").src = "https://images.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg?auto=compress&cs=tinysrgb&h=750&w=1260";
+  } else if (document.getElementById("weights").checked) {
+    document.getElementById("picture").src = "https://images.pexels.com/photos/949132/pexels-photo-949132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+    }
 }
 
 const formItem = function (form) {

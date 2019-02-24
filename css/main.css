@@ -58,3 +58,19 @@ input[type="text"], input[type="number"] {
 .hidden {
   display: none;
 }
+
+#boxing {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url("boxing.jpeg");
+}
+
+#wrestling {
+ background-image: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url("wrestling.jpeg");
+}
+
+#bjj {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url("bjj.jpeg");
+}
+
+#weights {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url("weights.jpeg");
+}
