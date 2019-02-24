@@ -17,6 +17,10 @@ function newBackground() {
     document.getElementById("picture").src = "https://images.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg?auto=compress&cs=tinysrgb&h=750&w=1260";
   } else if (document.getElementById("weights").checked) {
     document.getElementById("picture").src = "https://images.pexels.com/photos/949132/pexels-photo-949132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+    } else if (document.getElementById("bjj").checked) {
+    document.getElementById("picture").src = "https://i.ytimg.com/vi/L7pZ-2u8JnQ/maxresdefault.jpg";
+    } else if (document.getElementById("wrestling").checked) {
+    document.getElementById("picture").src = "https://cdn.vox-cdn.com/thumbor/nkkCu3w9K8d-Nf4L1RhL7kJg7OU=/0x0:3704x2777/1200x800/filters:focal(1747x580:2339x1172)/cdn.vox-cdn.com/uploads/chorus_image/image/62350557/DSC_5884.0.jpg";
     }
 }
 
