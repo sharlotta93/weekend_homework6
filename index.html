@@ -7,6 +7,26 @@
     <script src="js/app.js"></script>
   </head>
   <body>
+      <form id="initial-form">
+        <p>Select your favourite Workout:</p>
+
+        <div>
+          <input type="radio" id="bjj" name="drone" value="bjj" checked>
+             <label for="bjj">BJJ</label>
+      
+          <input type="radio" id="wrestling" name="drone" value="wresling">
+          <label for="wrestling">Wrestling</label>
+
+          <input type="radio" id="boxing" name="drone" value="boxing">
+          <label for="boxing">Boxing</label>
+
+          <input type="radio" id="weights" name="drone" value="weights">
+          <label for="weights">Weights</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+    </form>
     <form id="new-item-form">
       <div id="form-wrapper">
         <div class="form-item">
@@ -43,29 +63,5 @@
     <div id="training-list"></div>
   </body>
   <footer>
-    <p>Select your favourite Workout:</p>
-
-    <div>
-      <input type="radio" id="bjj" name="drone" value="bjj" checked>
-         <label for="bjj">BJJ</label>
-    </div>
-
-    <div>
-      <input type="radio" id="wrestling" name="drone" value="wresling">
-      <label for="wrestling">Wrestling</label>
-    </div>
-
-    <div>
-      <input type="radio" id="boxing" name="drone" value="boxing">
-      <label for="boxing">Boxing</label>
-    </div>
-
-    <div>
-      <input type="radio" id="weights" name="drone" value="weights">
-      <label for="weights">Weights</label>
-    </div>
-    <div>
-      <button type="submit">Submit</button>
-    </div>
   </footer>
 </html>

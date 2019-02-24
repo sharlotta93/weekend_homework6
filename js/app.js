@@ -1,10 +1,23 @@
-document.addEventListener('DOMContentLoaded', () => {
+
+const initialLoad = () => {
+  const firstSubmitButton = document.querySelector('#initial-form');
+  firstSubmitButton.addEventListener('submit', onStartForm);
+}
+
+const onStartForm = () => {
+  const radioForm= document.querySelector('#initial-form');
+  radioForm.classList.add('hidden');
+  event.preventDefault();
+  formItem();
+}
+
+const formItem = function (form) {
   const newItemform = document.querySelector('#new-item-form');
   newItemform.addEventListener('submit', createdNewForm);
 
   const deleteAllButton = document.querySelector('#delete-all');
   deleteAllButton.addEventListener('click', deleteAll);
-})
+}
 
 const createdNewForm = function (event) {
   event.preventDefault();
@@ -43,3 +56,5 @@ const deleteAll = function (event) {
   const trainingList = document.querySelector('#training-list');
   trainingList.innerHTML = '';
 }
+
+document.addEventListener('DOMContentLoaded', initialLoad)
